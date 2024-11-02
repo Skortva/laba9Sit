@@ -1,0 +1,49 @@
+
+clean:
+   [delete] Deleting directory C:\Танки\ЛабыПрогсп\Laba9sitairis\bin
+     [echo] Clean completed successfully.
+
+compile:
+    [mkdir] Created dir: C:\Танки\ЛабыПрогсп\Laba9sitairis\bin
+    [javac] Compiling 1 source file to C:\Танки\ЛабыПрогсп\Laba9sitairis\bin
+     [echo] Compilation completed successfully.
+
+test:
+    [mkdir] Created dir: C:\Танки\ЛабыПрогсп\Laba9sitairis\bin\test
+    [javac] Compiling 1 source file to C:\Танки\ЛабыПрогсп\Laba9sitairis\bin\test
+     [echo] Test compilation completed successfully.
+     [java] 
+     [java] Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+     [java] 
+     [java] [36m?[0m
+     [java] [36m??[0m [36mJUnit Platform Suite[0m [32m?[0m
+     [java] [36m??[0m [36mJUnit Jupiter[0m [32m?[0m
+     [java] [36m??[0m [36mJUnit Vintage[0m [32m?[0m
+     [java] 
+     [java] Test run finished after 29 ms
+     [java] [         3 containers found      ]
+     [java] [         0 containers skipped    ]
+     [java] [         3 containers started    ]
+     [java] [         0 containers aborted    ]
+     [java] [         3 containers successful ]
+     [java] [         0 containers failed     ]
+     [java] [         0 tests found           ]
+     [java] [         0 tests skipped         ]
+     [java] [         0 tests started         ]
+     [java] [         0 tests aborted         ]
+     [java] [         0 tests successful      ]
+     [java] [         0 tests failed          ]
+     [java] 
+     [java] 
+     [java] WARNING: Delegated to the 'execute' command.
+     [java]          This behaviour has been deprecated and will be removed in a future release.
+     [java]          Please use the 'execute' command directly.
+     [echo] Tests executed successfully.
+
+deploy:
+     [echo] Deploying application...
+
+all:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
